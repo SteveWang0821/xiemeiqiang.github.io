@@ -1,5 +1,9 @@
 /* global NexT, CONFIG */
 
+$('.site-author-image').click(function(){
+  window.location.href="https://xiemeiqiang.github.io/";
+});
+
 $(document).ready(function() {
   NexT.motion = {};
 

@@ -1956,6 +1956,7 @@ pre .javascript .function {
   height: auto;
   border: 2px solid #333;
   opacity: 1;
+  cursor: pointer;
 }
 .site-author-image {
   border-radius: 100%;
@@ -2043,7 +2044,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0a57ff;
+  background: #26ff4f;
 }
 .links-of-blogroll {
   font-size: 13px;
