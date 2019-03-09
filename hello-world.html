@@ -131,14 +131,14 @@
 
 
   <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta name="keywords" content="jQuery,表格,表单验证">
+<meta name="keywords" content="test3,test2,test1">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
 <meta property="og:url" content="https://xiemeiqiang.github.io/hello-world.html">
 <meta property="og:site_name" content="Xie Meiqiang">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-09T04:19:36.698Z">
+<meta property="og:updated_time" content="2019-03-09T05:14:32.238Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
 <meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
@@ -456,7 +456,7 @@
                 
               
 
-              <time title="创建时间：2019-03-09 12:09:40 / 修改时间：12:19:36" itemprop="dateCreated datePublished" datetime="2019-03-09T12:09:40+08:00">2019-03-09</time>
+              <time title="创建时间：2019-03-09 12:09:40 / 修改时间：13:14:32" itemprop="dateCreated datePublished" datetime="2019-03-09T12:09:40+08:00">2019-03-09</time>
             
 
             
@@ -478,21 +478,9 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web前端/" itemprop="url" rel="index"><span itemprop="name">web前端</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/test/" itemprop="url" rel="index"><span itemprop="name">test</span></a></span>
 
           
-          
-             <span id="/hello-world.html" class="leancloud_visitors" data-flag-title="Hello World">
-             &nbsp; | &nbsp;
-               <span class="post-meta-divider">阅读次数:</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数&#58;</span>
-               
-                <span class="leancloud-visitors-count"></span>
-             </span>
           
 
                 
@@ -503,6 +491,19 @@
 
           
             
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/hello-world.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/hello-world.html" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -598,7 +599,7 @@
   <p><span>本文标题:</span><a href="/hello-world.html">Hello World</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 Xie Meiqiang 的个人博客">Xie Meiqiang</a></p>
   <p><span>发布时间:</span>2019年03月09日 - 12:09</p>
-  <p><span>最后更新:</span>2019年03月09日 - 12:19</p>
+  <p><span>最后更新:</span>2019年03月09日 - 13:14</p>
   <p><span>原始链接:</span><a href="/hello-world.html" title="Hello World">https://xiemeiqiang.github.io/hello-world.html</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://xiemeiqiang.github.io/hello-world.html" aria-label="复制成功！"></i></span>
   </p>
@@ -642,11 +643,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/jQuery/" rel="tag"><i class="fa fa-tag"></i> jQuery</a>
+            <a href="/tags/test3/" rel="tag"><i class="fa fa-tag"></i> test3</a>
           
-            <a href="/tags/表格/" rel="tag"><i class="fa fa-tag"></i> 表格</a>
+            <a href="/tags/test2/" rel="tag"><i class="fa fa-tag"></i> test2</a>
           
-            <a href="/tags/表单验证/" rel="tag"><i class="fa fa-tag"></i> 表单验证</a>
+            <a href="/tags/test1/" rel="tag"><i class="fa fa-tag"></i> test1</a>
           
         </div>
       
@@ -672,6 +673,10 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
 
   
 
@@ -1011,6 +1016,35 @@
 
   
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'FAGtRWTmEYPVJ6aGfe5Dyqwe-9Nh9j0Va',
+    appKey: 'gc5L0O5TxUxk9IMvoVFpnhM9',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: true
+  });
+</script>
+
+
 
 
   
@@ -1342,66 +1376,6 @@
 
 
   
-  
-  <script>
-    
-    function addCount(Counter) {
-      var $visitors = $('.leancloud_visitors');
-      var url = $visitors.attr('id').trim();
-      var title = $visitors.attr('data-flag-title').trim();
-
-      Counter('get', '/classes/Counter', { where: JSON.stringify({ url }) })
-        .done(function({ results }) {
-          if (results.length > 0) {
-            var counter = results[0];
-            
-            Counter('put', '/classes/Counter/' + counter.objectId, JSON.stringify({ time: { '__op': 'Increment', 'amount': 1 } }))
-            
-              .done(function() {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.time + 1);
-              })
-            
-              .fail(function ({ responseJSON }) {
-                console.log('Failed to save Visitor num, with error message: ' + responseJSON.error);
-              })
-          } else {
-            
-              var $element = $(document.getElementById(url));
-              $element.find('.leancloud-visitors-count').text('Counter not initialized! More info at console err msg.');
-              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
-            
-          }
-        })
-        .fail(function ({ responseJSON }) {
-          console.log('LeanCloud Counter Error: ' + responseJSON.code + ' ' + responseJSON.error);
-        });
-    }
-    
-
-    $(function() {
-      $.get('https://app-router.leancloud.cn/2/route?appId=' + 'FAGtRWTmEYPVJ6aGfe5Dyqwe-9Nh9j0Va')
-        .done(function({ api_server }) {
-          var Counter = function(method, url, data) {
-            return $.ajax({
-              method: method,
-              url: 'https://' + api_server + '/1.1' + url,
-              headers: {
-                'X-LC-Id': 'FAGtRWTmEYPVJ6aGfe5Dyqwe-9Nh9j0Va',
-                'X-LC-Key': 'gc5L0O5TxUxk9IMvoVFpnhM9',
-                'Content-Type': 'application/json',
-              },
-              data: data
-            });
-          };
-          
-            addCount(Counter);
-          
-        });
-    });
-  </script>
-
-
 
   
 
@@ -1431,115 +1405,6 @@
 
 
   <script type="text/javascript" src="/js/src/love.js"></script>
-
-
-
-  
-
-  
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
-  <script>AV.initialize("FAGtRWTmEYPVJ6aGfe5Dyqwe-9Nh9j0Va", "gc5L0O5TxUxk9IMvoVFpnhM9");</script>
-  <script>
-    function showTime(Counter) {
-      var query = new AV.Query(Counter);
-      var entries = [];
-      var $visitors = $(".leancloud_visitors");
-
-      $visitors.each(function () {
-        entries.push( $(this).attr("id").trim() );
-      });
-
-      query.containedIn('url', entries);
-      query.find()
-        .done(function (results) {
-          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
-
-          if (results.length === 0) {
-            $visitors.find(COUNT_CONTAINER_REF).text(0);
-            return;
-          }
-
-          for (var i = 0; i < results.length; i++) {
-            var item = results[i];
-            var url = item.get('url');
-            var time = item.get('time');
-            var element = document.getElementById(url);
-
-            $(element).find(COUNT_CONTAINER_REF).text(time);
-          }
-          for(var i = 0; i < entries.length; i++) {
-            var url = entries[i];
-            var element = document.getElementById(url);
-            var countSpan = $(element).find(COUNT_CONTAINER_REF);
-            if( countSpan.text() == '') {
-              countSpan.text(0);
-            }
-          }
-        })
-        .fail(function (object, error) {
-          console.log("Error: " + error.code + " " + error.message);
-        });
-    }
-
-    function addCount(Counter) {
-      var $visitors = $(".leancloud_visitors");
-      var url = $visitors.attr('id').trim();
-      var title = $visitors.attr('data-flag-title').trim();
-      var query = new AV.Query(Counter);
-
-      query.equalTo("url", url);
-      query.find({
-        success: function(results) {
-          if (results.length > 0) {
-            var counter = results[0];
-            counter.fetchWhenSave(true);
-            counter.increment("time");
-            counter.save(null, {
-              success: function(counter) {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
-              },
-              error: function(counter, error) {
-                console.log('Failed to save Visitor num, with error message: ' + error.message);
-              }
-            });
-          } else {
-            var newcounter = new Counter();
-            /* Set ACL */
-            var acl = new AV.ACL();
-            acl.setPublicReadAccess(true);
-            acl.setPublicWriteAccess(true);
-            newcounter.setACL(acl);
-            /* End Set ACL */
-            newcounter.set("title", title);
-            newcounter.set("url", url);
-            newcounter.set("time", 1);
-            newcounter.save(null, {
-              success: function(newcounter) {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
-              },
-              error: function(newcounter, error) {
-                console.log('Failed to create');
-              }
-            });
-          }
-        },
-        error: function(error) {
-          console.log('Error:' + error.code + " " + error.message);
-        }
-      });
-    }
-
-    $(function() {
-      var Counter = AV.Object.extend("Counter");
-      if ($('.leancloud_visitors').length == 1) {
-        addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
-        showTime(Counter);
-      }
-    });
-  </script>
 
 
 
