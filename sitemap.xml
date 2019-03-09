@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiemeiqiang.github.io/tags/index.html</loc>
+    
+    <lastmod>2019-03-09T04:09:40.098Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiemeiqiang.github.io/categories/index.html</loc>
+    
+    <lastmod>2019-03-09T04:09:40.097Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://xiemeiqiang.github.io/about/index.html</loc>
+    
+    <lastmod>2019-03-09T04:09:40.096Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://xiemeiqiang.github.io/hello-world.html</loc>
     
-    <lastmod>2019-03-09T03:56:56.539Z</lastmod>
+    <lastmod>2019-03-09T04:09:40.095Z</lastmod>
     
   </url>
   
@@ -12,27 +33,6 @@
     <loc>https://xiemeiqiang.github.io/test.html</loc>
     
     <lastmod>2019-03-09T03:41:33.390Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xiemeiqiang.github.io/about/index.html</loc>
-    
-    <lastmod>2019-03-09T03:37:41.883Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xiemeiqiang.github.io/tags/index.html</loc>
-    
-    <lastmod>2019-03-09T03:37:14.556Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xiemeiqiang.github.io/categories/index.html</loc>
-    
-    <lastmod>2019-03-09T03:35:57.006Z</lastmod>
     
   </url>
   
